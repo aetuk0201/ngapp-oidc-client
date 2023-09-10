@@ -1,0 +1,19 @@
+// @import "~bootstrap/scss/bootstrap.scss";
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // font-size: 62.5%; /* (10/16)% */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    box-sizing: border-box;
+}

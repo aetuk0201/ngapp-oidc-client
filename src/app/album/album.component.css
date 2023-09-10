@@ -1,0 +1,41 @@
+
+.album-cover {
+    width: 160px;
+    height: 180px;
+    background-color: grey;
+    
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    background-image: linear-gradient(to right bottom, #6fb0d5e5, #5578c5ce) , url('~/src/assets/images/album/album_cover_kristin.jpg');
+    background-size: cover;
+    background-position: top;
+
+}
+
+.album-cover-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    text-align: center;
+}
+
+.album-cover-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: block;
+}
+
+.album-cover-subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 5px;
+    display: block;
+}

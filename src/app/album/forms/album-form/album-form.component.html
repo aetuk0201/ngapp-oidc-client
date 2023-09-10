@@ -1,0 +1,23 @@
+<form [formGroup]="albumForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+        <label class="label" for="title">Title: </label>
+        <input id="title" class="form-control" type="text" formControlName="title">
+    </div>
+  
+    <div class="form-group">
+        <label for="desc">Description: </label>
+        <input id="desc" class="form-control" type="text" formControlName="description">
+    </div>
+  
+    <div class="form-group">
+        <label for="owner">Owner: </label>
+        <input id="owner" class="form-control" type="text" formControlName="owner">
+    </div>
+  
+
+  <p>
+      <button type="submit" [disabled]="!albumForm.valid">Submit</button>
+  </p>
+
+</form>
